@@ -1,0 +1,66 @@
+.header
+{
+    border: 0;
+    background: none;
+
+    padding: 5px;
+    text-align: center;
+    background: #00CCFF;
+    font-size: 13px;
+    outline: none;
+	color: white;
+	border-radius: 125px;
+}
+
+
+body
+{
+    background-image: url(../img/winlogo.jpg);
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+img
+{
+    height: 75%;
+    width: 30%;
+    position: absolute;
+    top: 20%; left: 0.5%;
+}
+
+.disponible
+{
+    position: absolute;
+    top: 80%; left: 32%;
+    font-size: 20px;
+    color: White;
+}
+
+.text
+{
+    position: absolute;
+    top: 18%; left: 70%;
+    font-size: 20px;
+    color: white;
+}
+
+#download input[type = "submit"]
+{
+    position: absolute;
+    top: 87.6%; left: 32%;
+	border:0;
+	background:none;
+	display: black;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #00CCFF;
+	padding:10px 25px;
+
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	transition: 0.25s;
+	cursor: pointer;
+    
+}
